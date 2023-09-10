@@ -1,6 +1,3 @@
-// const dayE1 = document.querySelector(".day");
-// const time = document.querySelector(".time");
-
 var today = new Date();
 var day = today.getDay();
 
@@ -48,8 +45,3 @@ document.querySelector(".time").innerHTML =
 console.log(
   "Current time: " + hour + ":" + minute + ":" + second + ":" + milliseconds
 );
-
-// const date = new Date();
-// const milliseconds = date.getMilliseconds();
-// console.log(milliseconds);
-// const day = dayE1.getDay();
