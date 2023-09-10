@@ -15,15 +15,14 @@ html {
   align-items: center;
 }
 .my-data {
+  height: 380px;
   padding-right: 90px;
 }
 p[data-testid="slackUserName"] {
-  flex-direction: column;
-  font-size: large;
+  font-size: 50px;
   font-weight: 200;
 }
 .profile-image img[data-testid="slackDisplayImage"] {
-  flex-direction: column;
   border-radius: 23px;
   width: 250px;
   height: 350px;
