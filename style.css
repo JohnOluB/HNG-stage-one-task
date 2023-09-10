@@ -37,3 +37,19 @@ p[data-testid="githubURL"] {
   cursor: pointer;
   padding-top: 80px;
 }
+p[data-testid="githubURL"] a {
+  color: black;
+  text-decoration: none;
+}
+p[data-testid="githubURL"] a:hover {
+  color: black;
+  text-decoration: none;
+}
+p[data-testid="githubURL"] a:active {
+  color: black;
+  text-decoration: none;
+}
+p[data-testid="githubURL"] a:visited {
+  color: black;
+  text-decoration: none;
+}
