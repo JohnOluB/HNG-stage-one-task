@@ -25,5 +25,15 @@ p[data-testid="slackUserName"] {
   height: 350px;
 }
 p[data-testid="currentDayOfTheWeek"] {
-  padding-top: 20px;
+  padding-top: 30px;
+}
+p[data-testid="currentUTCTime"] {
+  padding-top: 30px;
+}
+p[data-testid="myTrack"] {
+  padding-top: 30px;
+}
+p[data-testid="githubURL"] {
+  cursor: pointer;
+  padding-top: 80px;
 }
