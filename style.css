@@ -6,7 +6,7 @@
 html {
   font-family: "Lato";
 }
-div[data-testid="container"] {
+.container {
   background-color: rgba(0, 0, 0, 0.582);
   min-height: 100vh;
   width: 100%;
@@ -14,5 +14,14 @@ div[data-testid="container"] {
   justify-content: center;
   align-items: center;
 }
-.slackUserName {
+p[data-testid="slackUserName"] {
+  flex-direction: column;
+  font-size: large;
+  font-weight: 200;
+}
+.profile-image img[data-testid="slackDisplayImage"] {
+  flex-direction: column;
+  border-radius: 23px;
+  width: 250px;
+  height: 350px;
 }
