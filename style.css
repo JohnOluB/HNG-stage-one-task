@@ -15,7 +15,7 @@ html {
   align-items: center;
 }
 .my-data {
-  padding-right: 500px;
+  padding-right: 90px;
 }
 p[data-testid="slackUserName"] {
   flex-direction: column;
