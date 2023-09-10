@@ -3,9 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-html {
-  font-family: "Lato";
-}
 .container {
   background-color: rgba(0, 0, 0, 0.582);
   min-height: 100vh;
@@ -17,13 +14,16 @@ html {
 .my-data {
   height: 380px;
   padding-right: 90px;
+  font-size: 30px;
 }
 p[data-testid="slackUserName"] {
-  font-size: 50px;
   font-weight: 200;
 }
 .profile-image img[data-testid="slackDisplayImage"] {
   border-radius: 23px;
   width: 250px;
   height: 350px;
+}
+p[data-testid="currentDayOfTheWeek"] {
+  padding-top: 20px;
 }
