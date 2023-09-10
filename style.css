@@ -14,6 +14,9 @@ html {
   justify-content: center;
   align-items: center;
 }
+.my-data {
+  padding-right: 500px;
+}
 p[data-testid="slackUserName"] {
   flex-direction: column;
   font-size: large;
